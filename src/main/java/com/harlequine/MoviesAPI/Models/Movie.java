@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
-@Document(collection = "movie") //this class sheet presents each document in the movie collections
+@Document(collection = "movies") //this class sheet presents each document in the movie collections
 //similar to js creating a model for mongodb
 @Data
 @AllArgsConstructor// an annotation for creating a constructor that takes all the private fields in this class as arguments

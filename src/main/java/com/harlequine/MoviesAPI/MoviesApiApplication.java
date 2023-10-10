@@ -2,7 +2,6 @@ package com.harlequine.MoviesAPI;
 
 import org.springframework.boot.SpringApplication;// this class has a method that runs the spring application
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 
 //annotations in java are usually used to let the compiler know what this class does
