@@ -29,7 +29,7 @@ public class Movie {
     private List<String> backdrops;
 
     @DocumentReference // Manual Reference relationship between Movie collection and Review Collection
-    private List<Review> reviewId;// unlike in js where you create a model where its field has a value of an object, and you simply write it as is inline. In Java, you need a blueprint or in OOP we call it a class to construct the structure of the value of that field.
+    private List<Review> reviewIds;// unlike in js where you create a model where its field has a value of an object, and you simply write it as is inline. In Java, you need a blueprint or in OOP we call it a class to construct the structure of the value of that field.
 
 
 }
